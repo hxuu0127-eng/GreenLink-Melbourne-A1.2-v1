@@ -1,0 +1,40 @@
+body {
+  background-color: #f8f9fa !important;
+  color: #333333;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 微调圆角与阴影，让卡片看起来更轻量、更现代 */
+.card {
+  border-radius: 12px !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03) !important;
+}
+
+/* 按钮聚焦时的视觉优化 */
+.btn-success {
+  background-color: #198754 !important;
+  border-color: #198754 !important;
+  border-radius: 6px !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.btn-success:hover {
+  background-color: #146c43 !important;
+  border-color: #146c43 !important;
+}
+
+/* 输入框聚焦时的绿色光晕效果 */
+.form-control:focus {
+  border-color: #198754 !important;
+  box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25) !important;
+}
+
+/* 列表项的精细微调 */
+.list-group-item {
+  border-color: #f1f3f5 !important;
+}
+
+/* 针对更小文字的辅助样式 */
+.extra-small {
+  font-size: 0.75rem !important;
+}
