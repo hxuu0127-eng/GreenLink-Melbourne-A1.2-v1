@@ -10,7 +10,7 @@ body {
 
 header {
   background: #315c3a;
-  color: white;
+  color: rgb(42, 13, 210);
   padding: 30px;
   text-align: center;
 }
@@ -28,7 +28,7 @@ main {
 }
 
 .event-card {
-  background: white;
+  background: rgb(10, 240, 44);
   padding: 20px;
   border-radius: 8px;
   flex: 1;
